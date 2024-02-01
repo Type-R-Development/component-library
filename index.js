@@ -1,3 +1,1 @@
-export default function () {
-  console.log('Hello, world!');
-}
+export { default as Button } from 'src/BaseComponents/Button';
