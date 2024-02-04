@@ -2,11 +2,14 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import './style.css';
 
-const Button = ({ children, ...rest }) => {
-  return <button {...rest}>{children}</button>;
-};
-
+export default function Button({ className, children, ...rest }) {
+  return (
+    <button className={`Button-Container ${className ?? ''}`} {...rest}>
+      {children}
+    </button>
+  );
+}
 Button.PropTypes = {
   children: PropTypes.node.isRequired,
+  className: PropTypes.string,
 };
-export default Button;
