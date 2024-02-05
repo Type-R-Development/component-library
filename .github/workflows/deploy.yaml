@@ -17,3 +17,18 @@ jobs:
         with:
           build_command: npm run build
           path: storybook-static
+        # Bump the version & push (if you're not doing that elsewhere)
+      - name: Bump version & push
+        run: |
+          git config --global user.name 'Automated publish'
+          git config --global user.email 'webdevtrev@users.noreply.github.com'
+
+          # Update the version in package.json, and commit & tag the change:
+          npm version patch # YMMV - you might want the semver level as a workflow input
+
+          git push && git push --tags
+
+      # Publish the result to npm with your granular token:
+      - run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_PUBLISH_TOKEN }}
