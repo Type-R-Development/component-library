@@ -1,4 +1,5 @@
 .Button-Container {
+  display: inline-block;
   background-color: transparent;
   border: 1px solid black;
   cursor: pointer;
