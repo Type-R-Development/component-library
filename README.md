@@ -1,5 +1,7 @@
 # @type-r-development/component-library 🚀
 
+[![.github/workflows/deploy.yaml](https://github.com/Type-R-Development/component-library/actions/workflows/deploy.yaml/badge.svg)](https://github.com/Type-R-Development/component-library/actions/workflows/deploy.yaml)
+
 Welcome to the TypeR Components Library! 🧩 This library is your go-to toolkit for building versatile and efficient user interfaces. Our components, part of the `@type-r-development/component-library` package, are designed to provide a seamless and enjoyable development experience.
 
 ## Installation
