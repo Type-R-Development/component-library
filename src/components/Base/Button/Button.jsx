@@ -14,7 +14,7 @@ export default function Button({
     </Wrapper>
   );
 }
-Button.PropTypes = {
+Button.propTypes = {
   children: PropTypes.node.isRequired,
   className: PropTypes.string,
   Wrapper: PropTypes.string,
