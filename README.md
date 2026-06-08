@@ -2,7 +2,11 @@
 
 [![.github/workflows/deploy.yaml](https://github.com/Type-R-Development/component-library/actions/workflows/deploy.yaml/badge.svg)](https://github.com/Type-R-Development/component-library/actions/workflows/deploy.yaml)
 
-Welcome to the TypeR Components Library! 🧩 This library is your go-to toolkit for building versatile and efficient user interfaces. Our components, part of the `@type-r-development/component-library` package, are designed to provide a seamless and enjoyable development experience.
+A framework-agnostic React component system designed for rapid client website development.
+
+This repository contains reusable UI components, design primitives, accessibility standards, and the CSS variable contract used across all Type-R websites.
+
+Components are intentionally CMS-agnostic and do not contain Sanity-specific logic. Styling is driven through a standardized CSS variable system that allows each website to define its own brand, theme, and design tokens while maintaining a consistent component API.
 
 ## Installation
 
@@ -18,42 +22,26 @@ or
 yarn add @type-r-development/component-library
 ```
 
-## Usage
+## Responsibilities
 
-Import the components you need and dive into the world of hassle-free UI development. Our components are built to be modular and customizable, fitting seamlessly into your projects.
+- Reusable UI components
+- Design system primitives
+- Accessibility standards
+- Component documentation
+- Storybook
+- CSS variable contract
+- Theming support
 
-<!-- ## Components
+## Non-Goals
 
-### FancyButton
+- CMS schemas
+- Content modeling
+- Sanity integrations
+- Website routing
+- Application state management
 
-The `FancyButton` component adds a touch of elegance to your user interactions. It's designed with aesthetics and functionality in mind.
+## Consumers
 
-```jsx
-import { FancyButton } from '@type-r-development/component-library';
-```
-
-### StylishInput
-
-The `StylishInput` component offers a visually appealing and user-friendly input field. It's perfect for various data entry scenarios.
-
-```jsx
-import { StylishInput } from '@type-r-development/component-library';
-```
-
-### FeatureCard
-
-The `FeatureCard` component is a versatile container for presenting key features or information about your application. -->
-
-<!-- ```jsx
-import { FeatureCard } from '@type-r-development/component-library';
-``` -->
-
-## Customization
-
-Tailor the components to align with your project's unique style and branding. Modify colors, styles, and other properties to create a cohesive and visually stunning user interface.
-
-## Support
-
-If you encounter any issues or have suggestions for improvement, please feel free to open an issue on our [GitHub repository](https://github.com/type-r-development/component-library/issues). We're committed to providing excellent support to ensure your success with the TypeR Components Library.
-
-Happy coding with TypeR! 🚗🛠️
+- page-builder
+- website-template
+- client websites
