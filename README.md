@@ -1,10 +1,10 @@
-# @type-r-development/component-library 🚀
+# redline-dev/component-library 🚀
 
-[![.github/workflows/deploy.yaml](https://github.com/Type-R-Development/component-library/actions/workflows/deploy.yaml/badge.svg)](https://github.com/Type-R-Development/component-library/actions/workflows/deploy.yaml)
+[![.github/workflows/deploy.yaml](https://github.com/redline-dev/component-library/actions/workflows/deploy.yaml/badge.svg)](https://github.com/redline-dev/component-library/actions/workflows/deploy.yaml)
 
 A framework-agnostic React component system designed for rapid client website development.
 
-This repository contains reusable UI components, design primitives, accessibility standards, and the CSS variable contract used across all Type-R websites.
+This repository contains reusable UI components, design primitives, accessibility standards, and the CSS variable contract used across all redline-dev websites.
 
 Components are intentionally CMS-agnostic and do not contain Sanity-specific logic. Styling is driven through a standardized CSS variable system that allows each website to define its own brand, theme, and design tokens while maintaining a consistent component API.
 
@@ -13,13 +13,13 @@ Components are intentionally CMS-agnostic and do not contain Sanity-specific log
 To get started, install the TypeR Components Library using your preferred package manager:
 
 ```bash
-npm install @type-r-development/component-library
+npm install redline-dev/component-library
 ```
 
 or
 
 ```bash
-yarn add @type-r-development/component-library
+yarn add redline-dev/component-library
 ```
 
 ## Responsibilities
